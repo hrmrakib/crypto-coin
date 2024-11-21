@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer class='hidden relative mt-24'>
+    <footer class='relative mt-24'>
       <div class='w-[1200px] mx-auto pb-9'>
         <div class='grid grid-cols-1 lg:grid-cols-6 items-start gap-4'>
           <div class=''>
