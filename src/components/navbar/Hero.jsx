@@ -43,12 +43,12 @@ const Hero = () => {
       </Container>
 
       <img
-        class='absolute -top-20 right-0'
+        className='absolute -top-20 right-0'
         src='./assets/images/Ellipse 2.png'
         alt=''
       />
       <img
-        class='absolute left-0 bottom-0'
+        className='absolute left-0 bottom-0'
         src='./assets/images/blue-blur.png'
         alt=''
       />
