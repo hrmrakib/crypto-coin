@@ -1,8 +1,10 @@
 import Hero from "../../components/navbar/Hero";
 import About from "./home/About";
+import Blog from "./home/Blog";
 import ClientReview from "./home/ClientReview";
 import FAQ from "./home/FAQ";
 import Feature from "./home/Feature";
+import GetStarted from "./home/GetStarted";
 import MarketUpdate from "./home/MarketUpdate";
 import Solution from "./home/Solution";
 
@@ -22,6 +24,8 @@ const Home = () => {
       <FAQ />
       <MarketUpdate />
       <ClientReview />
+      <Blog />
+      <GetStarted />
     </div>
   );
 };
