@@ -1,5 +1,6 @@
 import Hero from "../../components/navbar/Hero";
 import About from "./home/About";
+import ClientReview from "./home/ClientReview";
 import FAQ from "./home/FAQ";
 import Feature from "./home/Feature";
 import MarketUpdate from "./home/MarketUpdate";
@@ -20,6 +21,7 @@ const Home = () => {
       <Solution />
       <FAQ />
       <MarketUpdate />
+      <ClientReview />
     </div>
   );
 };
