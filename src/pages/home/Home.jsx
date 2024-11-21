@@ -2,6 +2,7 @@ import Hero from "../../components/navbar/Hero";
 import About from "./home/About";
 import FAQ from "./home/FAQ";
 import Feature from "./home/Feature";
+import MarketUpdate from "./home/MarketUpdate";
 import Solution from "./home/Solution";
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <About />
       <Solution />
       <FAQ />
+      <MarketUpdate />
     </div>
   );
 };
