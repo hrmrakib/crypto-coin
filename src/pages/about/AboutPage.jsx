@@ -1,6 +1,8 @@
 import React from "react";
 import Banner from "../../components/common/Banner";
 import Container from "../../container/Container";
+import Feature from "../home/home/Feature";
+import GetStarted from "../home/home/GetStarted";
 
 const AboutPage = () => {
   return (
@@ -35,6 +37,9 @@ const AboutPage = () => {
             cavefish.
           </p>
         </div>
+
+        <Feature />
+        <GetStarted />
       </Container>
     </div>
   );
