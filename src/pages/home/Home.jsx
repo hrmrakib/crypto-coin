@@ -1,5 +1,6 @@
 import Hero from "../../components/navbar/Hero";
 import About from "./home/About";
+import FAQ from "./home/FAQ";
 import Feature from "./home/Feature";
 import Solution from "./home/Solution";
 
@@ -16,6 +17,7 @@ const Home = () => {
       <Feature />
       <About />
       <Solution />
+      <FAQ />
     </div>
   );
 };
