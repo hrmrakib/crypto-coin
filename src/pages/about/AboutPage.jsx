@@ -1,8 +1,8 @@
 import React from "react";
 import Banner from "../../components/common/Banner";
 import Container from "../../container/Container";
-import Feature from "../home/home/Feature";
 import GetStarted from "../home/home/GetStarted";
+import About from "../home/home/About";
 
 const AboutPage = () => {
   return (
@@ -38,7 +38,7 @@ const AboutPage = () => {
           </p>
         </div>
 
-        <Feature />
+        <About />
         <GetStarted />
       </Container>
     </div>
