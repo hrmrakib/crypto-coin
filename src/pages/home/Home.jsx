@@ -1,5 +1,6 @@
 import Hero from "../../components/navbar/Hero";
-import Feature from "./Feature";
+import About from "./home/About";
+import Feature from "./home/Feature";
 
 const Home = () => {
   return (
@@ -11,8 +12,8 @@ const Home = () => {
       />
 
       <Hero />
-
       <Feature />
+      <About />
     </div>
   );
 };

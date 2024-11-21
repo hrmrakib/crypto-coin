@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "../../container/Container";
+import Container from "../../../container/Container";
 
 const Feature = () => {
   return (
