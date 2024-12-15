@@ -14,7 +14,7 @@ const Home = () => {
       <img
         className='absolute -top-[550px] right-0'
         src='/assets/images/greer-blur.png'
-        alt=''
+        alt='g-blur'
       />
 
       <Hero />
