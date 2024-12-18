@@ -34,7 +34,7 @@ const SolutionPage = () => {
   return (
     <div>
       <Banner>Solution</Banner>
-      <div className='min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white relative overflow-hidden'>
+      <div className='min-h-screen text-white relative overflow-hidden'>
         {/* Decorative stars */}
         <div className='absolute top-20 left-10 text-white/20 text-2xl'>✧</div>
         <div className='absolute top-40 right-20 text-white/20 text-2xl'>✧</div>
@@ -48,7 +48,7 @@ const SolutionPage = () => {
             <div className='bg-gradient-to-r from-blue-900/20 to-purple-900/20 rounded-3xl overflow-hidden'>
               <div className='aspect-[16/9] relative'>
                 <img
-                  src='/placeholder.svg?height=400&width=800'
+                  src='/assets/images/solution-img.png'
                   alt='Freelancer working at night'
                   className='object-cover w-full h-full'
                 />
@@ -72,14 +72,11 @@ const SolutionPage = () => {
           {/* Services Section */}
           <section className='space-y-6'>
             <h2 className='text-2xl font-semibold'>Our Services</h2>
-            <div className='grid md:grid-cols-2 gap-6'>
+            <div className='space-y-5'>
               {services.map((service, index) => (
-                <div
-                  key={index}
-                  className='bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm'
-                >
+                <div key={index} className='flex gap-2'>
                   <h3 className='text-xl font-semibold mb-2'>
-                    {service.title}
+                    {index + 1} {"."} {service.title}
                   </h3>
                   <p className='text-gray-300'>{service.description}</p>
                 </div>
@@ -88,9 +85,9 @@ const SolutionPage = () => {
           </section>
 
           {/* Benefits Section */}
-          <section className='space-y-6'>
+          <section className='space-y-4'>
             <h2 className='text-2xl font-semibold'>Service Benefits:</h2>
-            <div className='bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm'>
+            <div className='backdrop-blur-sm'>
               <p className='text-gray-300'>
                 Content is king in the digital world. Agencies produce
                 high-quality content, including blog posts, videos,
@@ -104,9 +101,9 @@ const SolutionPage = () => {
           </section>
 
           {/* Pricing Section */}
-          <section className='space-y-6'>
+          <section className='space-y-4'>
             <h2 className='text-2xl font-semibold'>Low Cost Our Fee:</h2>
-            <div className='bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm'>
+            <div className='backdrop-blur-sm'>
               <p className='text-gray-300'>
                 Content is king in the digital world. Agencies produce
                 high-quality content, including blog posts, videos,
@@ -120,9 +117,9 @@ const SolutionPage = () => {
           </section>
 
           {/* Tips Section */}
-          <section className='space-y-6'>
+          <section className='space-y-4'>
             <h2 className='text-2xl font-semibold'>Tips & tricks:</h2>
-            <div className='bg-gray-800/50 rounded-xl p-6 backdrop-blur-sm'>
+            <div className='backdrop-blur-sm'>
               <p className='text-gray-300'>
                 Content is king in the digital world. Agencies produce
                 high-quality content, including blog posts, videos,
